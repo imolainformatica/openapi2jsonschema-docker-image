@@ -1,0 +1,3 @@
+FROM sabbir1cse/ubuntu-python-pip-supervisor 
+RUN pip install --upgrade pip
+RUN pip install openapi2jsonschema

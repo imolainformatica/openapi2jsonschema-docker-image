@@ -1,0 +1,7 @@
+{
+  "items": {
+    "$ref": "_definitions.json#/definitions/Pet"
+  }, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "array"
+}

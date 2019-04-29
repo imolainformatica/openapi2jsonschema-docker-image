@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+
+  python-openapi2jsonschema-bash:
+    build:
+      context: image
+    volumes:
+      - ./swagger:/tmp/swagger     

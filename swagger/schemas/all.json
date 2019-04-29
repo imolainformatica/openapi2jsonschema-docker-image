@@ -1,0 +1,13 @@
+{
+  "oneOf": [
+    {
+      "$ref": "_definitions.json#/definitions/Pet"
+    }, 
+    {
+      "$ref": "_definitions.json#/definitions/Pets"
+    }, 
+    {
+      "$ref": "_definitions.json#/definitions/Error"
+    }
+  ]
+}
